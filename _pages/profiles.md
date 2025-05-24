@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /People/
 title: Members of CAMAIL
 description: 
 nav: true
