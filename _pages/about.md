@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /About/
+permalink: /
 subtitle: <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a> and <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a>
 
 profile:
