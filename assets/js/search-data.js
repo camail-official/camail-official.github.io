@@ -28,16 +28,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
+          title: 'Oral Paper at ICLR 2025: Our paper on Oscillatory State-Space Model got accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-linoss-in-the-news-our-paper-on-oscillatory-state-space-model-was-featured-in-the-news-check-out-the-mit-news-article",
+          title: 'LinOSS in the news: Our paper on Oscillatory State-Space Model was featured in...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
