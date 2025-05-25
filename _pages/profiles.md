@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/
-title: Members
+title: Group Members
 description: 
 nav: true
 nav_order: 2
