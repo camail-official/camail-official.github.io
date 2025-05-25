@@ -6,7 +6,7 @@ subtitle: <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Syst
 
 profile:
   align: right
-  image: camail_logo_initial.jpg
+  image: mpi_ellis_logo.png
   image_circular: false # crops the image to make it circular
   more_info: 
 
