@@ -1,115 +1,279 @@
----
----
+@article{linoss,
+  abbr= {ICLR},
+  price={Oral},
+  long_price={Oral Presentation (top 1.8% of all submitted papers)},
+  pdf={https://openreview.net/pdf?id=GRMfXcAAFh},
+  title={Oscillatory State-Space Models},
+  author={Rusch, T. Konstantin and Rus, Daniela},  
+  year = {2025},
+  code={https://github.com/tk-rusch/linoss},
+  journal={The 13th International Conference on Learning Representations.},
+  abstract={We propose Linear Oscillatory State-Space models (LinOSS) for efficiently learning on long sequences. Inspired by cortical dynamics of biological neural networks, we base our proposed LinOSS model on a system of forced harmonic oscillators. A stable discretization, integrated over time using fast associative parallel scans, yields the proposed state-space model. We prove that LinOSS produces stable dynamics only requiring nonnegative diagonal state matrix. This is in stark contrast to many previous state-space models relying heavily on restrictive parameterizations. Moreover, we rigorously show that LinOSS is universal, i.e., it can approximate any continuous and causal operator mapping between time-varying functions, to desired accuracy. In addition, we show that an implicit-explicit discretization of LinOSS perfectly conserves the symmetry of time reversibility of the underlying dynamics. Together, these properties enable efficient modeling of long-range interactions, while ensuring stable and accurate long-horizon forecasting. Finally, our empirical results, spanning a wide range of time-series tasks from mid-range to very long-range classification and regression, as well as long-horizon forecasting, demonstrate that our proposed LinOSS model consistently outperforms state-of-the-art sequence models. Notably, LinOSS outperforms Mamba by nearly 2x and LRU by 2.5x on a sequence modeling task with sequences of length 50k.}
+  }
+  
+@article{linoss,
+  abbr= {FPI},
+  pdf={https://arxiv.org/pdf/2503.21103},
+  title={Low Stein Discrepancy via Message-Passing Monte Carlo},
+  author={Kirk, Nathan and Rusch, T. Konstantin and Zech, Jakob and Rus, Daniela},  
+  year = {2025},
+  journal={ICLR Workshop on Frontiers in Probabilistic Inference},
+  abstract={Message-Passing Monte Carlo (MPMC) was recently introduced as a novel low-discrepancy sampling approach leveraging tools from geometric deep learning. While originally designed for generating uniform point sets, we extend this framework to sample from general multivariate probability distributions with known probability density function. Our proposed method, Stein-Message-Passing Monte Carlo (Stein-MPMC), minimizes a kernelized Stein discrepancy, ensuring improved sample quality. Finally, we show that Stein-MPMC outperforms competing methods, such as Stein Variational Gradient Descent and (greedy) Stein Points, by achieving a lower Stein discrepancy.}
+  }
 
-@string{aps = {American Physical Society,}}
+@article{mpmc4prm,
+  abbr= {WRL},
+  pdf={https://arxiv.org/pdf/2410.03909},
+  title={Improving Efficiency of Sampling-based Motion Planning via Message-Passing Monte Carlo},
+  author={Chahine, Makram and Rusch, T. Konstantin and Patterson, Zach J and Rus, Daniela},
+  year = {2025},
+  journal={ICLR Workshop on Robot Learning},
+  abstract={Sampling-based motion planning methods, while effective in high-dimensional spaces, often suffer from inefficiencies due to irregular sampling distributions, leading to suboptimal exploration of the configuration space. In this paper, we propose an approach that enhances the efficiency of these methods by utilizing low-discrepancy distributions generated through Message-Passing Monte Carlo (MPMC). MPMC leverages Graph Neural Networks (GNNs) to generate point sets that uniformly cover the space, with uniformity assessed using the the $L_p$-discrepancy measure, which quantifies the irregularity of sample distributions. By improving the uniformity of the point sets, our approach significantly reduces computational overhead and the number of samples required for solving motion planning problems. Experimental results demonstrate that our method outperforms traditional sampling techniques in terms of planning efficiency.}
+  }
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{equi_multi_learn,
+  abbr= {MLGenX},
+  price={Spotlight},
+  long_price={Spotlight Presentation},
+  pdf={https://arxiv.org/abs/2410.17878},
+  title={Relaxed Equivariance via Multitask Learning},
+  author={Elhag, Ahmed A. and Rusch, T. Konstantin and Di Giovanni, Francesco and Bronstein, Michael M},  
+  year = {2025},
+  journal={ICLR Workshop on Machine Learning for Genomics Explorations},
+  abstract={Incorporating equivariance as an inductive bias into deep learning architectures to take advantage of the data symmetry has been successful in multiple applications, such as chemistry and dynamical systems. In particular, roto-translations are crucial for effectively modeling geometric graphs and molecules, where understanding the 3D structures enhances generalization. However, equivariant models often pose challenges due to their high computational complexity. In this paper, we introduce REMUL, a training procedure for approximating equivariance with multitask learning. We show that unconstrained models (which do not build equivariance into the architecture) can learn approximate symmetries by minimizing an additional simple equivariance loss. By formulating equivariance as a new learning objective, we can control the level of approximate equivariance in the model. Our method achieves competitive performance compared to equivariant baselines while being 10x faster at inference and 2.5x at training.}
+  }
+
+@article{mpmc24,
+abbr= {PNAS},
+pdf={https://arxiv.org/pdf/2405.15059},
+  title={Message-Passing Monte Carlo: Generating low-discrepancy point sets via Graph Neural Networks},
+  author={Rusch, T. Konstantin and Kirk, Nathan and Bronstein, Michael M and Lemieux, Christiane and Rus, Daniela},
+  journal={Proceedings of the National Academy of Sciences},
+  year={2024},
+  code={https://github.com/tk-rusch/MPMC},
+    abstract={Discrepancy is a well-known measure for the irregularity of the distribution of a point set. Point sets with small discrepancy are called low-discrepancy and are known to efficiently fill the space in a uniform manner. Low-discrepancy points play a central role in many problems in science and engineering, including numerical integration, computer vision, machine perception, computer graphics, machine learning, and simulation. In this work, we present the first machine learning approach to generate a new class of low-discrepancy point sets named Message-Passing Monte Carlo (MPMC) points. Motivated by the geometric nature of generating low-discrepancy point sets, we leverage tools from Geometric Deep Learning and base our model on Graph Neural Networks. We further provide an extension of our framework to higher dimensions, which flexibly allows the generation of custom-made points that emphasize the uniformity in specific dimensions that are primarily important for the particular problem at hand. Finally, we demonstrate that our proposed model achieves state-of-the-art performance superior to previous methods by a significant margin. In fact, MPMC points are empirically shown to be either optimal or near-optimal with respect to the discrepancy for low dimension and small number of points, i.e., for which the optimal discrepancy can be determined.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{di2023does,
+abbr= {TMLR},
+pdf={https://arxiv.org/pdf/2306.03589.pdf},
+  title={How does over-squashing affect the power of GNNs?},
+  author={Di Giovanni, Francesco and Rusch, T. Konstantin and Bronstein, Michael M. and Deac, Andreea and Lackenby, Marc and Mishra, Siddhartha and Veličković, Petar},
+  journal={Transactions on Machine Learning Research},
+  year={2024},
+    abstract={Graph Neural Networks (GNNs) are the state-of-the-art model for machine learning on graph-structured data. The most popular class of GNNs operate by exchanging information between adjacent nodes, and are known as Message Passing Neural Networks (MPNNs). Given their widespread use, understanding the expressive power of MPNNs is a key question. However, existing results typically consider settings with uninformative node features. In this paper, we provide a rigorous analysis to determine which function classes of node features can be learned by an MPNN of a given capacity. We do so by measuring the level of pairwise interactions between nodes that MPNNs allow for. This measure provides a novel quantitative characterization of the so-called over-squashing effect, which is observed to occur when a large volume of messages is aggregated into fixed-size vectors. Using our measure, we prove that, to guarantee sufficient communication between pairs of nodes, the capacity of the MPNN must be large enough, depending on properties of the input graph structure, such as commute times. For many relevant scenarios, our analysis results in impossibility statements in practice, showing that over-squashing hinders the expressive power of MPNNs. We validate our theoretical findings through extensive controlled experiments and ablation studies.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+@article{lanthaler2023neural,
+  abbr= {NeurIPS},
+  pdf={https://arxiv.org/pdf/2305.08753.pdf},
+  title={Neural Oscillators are Universal},
+  author={Lanthaler, Samuel and Rusch, T. Konstantin and Mishra, Siddhartha},
+  journal={The 37th Conference on Neural Information Processing Systems.},
+  year={2023},
+  abstract={Coupled oscillators are being increasingly used as the basis of machine learning (ML) architectures, for instance in sequence modeling, graph representation learning and in physical neural networks that are used in analog ML devices. We introduce an abstract class of neural oscillators that encompasses these architectures and prove that neural oscillators are universal, i.e, they can approximate any continuous and casual operator mapping between time-varying functions, to desired accuracy. This universality result provides theoretical justification for the use of oscillator based ML systems. The proof builds on a fundamental result of independent interest, which shows that a combination of forced harmonic oscillators with a nonlinear read-out suffices to approximate the underlying operators.}
+}
+
+@article{thesis,
+  abbr= {PhD thesis},
+  pdf={https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/637340/1/dissertation.pdf},
+  author = {Rusch, T. Konstantin},
+  title = {Physics-inspired Machine Learning},  
+  year = {2023},
+  journal={PhD thesis},
+  abstract={Physics-inspired machine learning can be seen as incorporating structure from physical systems (e.g.,
+given by ordinary or partial differential equations) into machine learning methods to obtain models with
+better inductive biases. In this thesis, we provide several of the earliest examples of such methods in
+the fields of sequence modelling and graph representation learning. We subsequently show that physicsinspired inductive biases can be leveraged to mitigate important and central issues in each particular
+field. More concretely, we demonstrate that systems of coupled nonlinear oscillators and Hamiltonian
+systems lead to recurrent sequence models that are able to process sequential interactions over long
+time scales by mitigating the exploding and vanishing gradients problem. Additionally, we rigorously
+prove that neural systems of oscillators are universal approximators for continuous and causal operators.
+Moreover, we show that sequence models derived from multiscale dynamical systems not only mitigate
+the exploding and vanishing gradients problem (and are thus able to learn long-term dependencies), but
+equally importantly yield expressive models for learning on (real-world) multiscale data. We further show
+the impact of physics-inspired approaches on graph representation learning. In particular, systems of
+graph-coupled nonlinear oscillators denote a powerful framework for learning on graphs that allows for
+stacking many graph neural network (GNN) layers on top of each other. Thereby, we prove that these
+systems mitigate the oversmoothing issue in GNNs, where node features exponentially converge to the
+same constant node vector for increasing number of GNN layers. Finally, we propose to incorporate
+multiple rates that are inferred from the underlying graph data into the message-passing framework of
+GNNs. Moreover, we leverage the graph gradient modulated through gating functions to obtain multiple
+rates that automatically mitigate the oversmoothing issue. We extensively test all proposed methods on a
+variety of versatile synthetic and real-world datasets, ranging from image recognition, speech recognition,
+natural language processing (NLP), medical applications, and scientific computing for sequence models,
+to citation networks, computational chemistry applications, and article and website networks for graph
+learning models.}
+  }
+
+@article{os_survey,
+  abbr= {arXiv},
+  pdf={https://arxiv.org/pdf/2303.10993.pdf},
+  author = {Rusch, T. Konstantin and Bronstein, Michael M. and Mishra, Siddhartha},
+  title = {A Survey on Oversmoothing in Graph Neural Networks},  
+  year = {2023},
+  journal={arXiv preprint},
+  abstract={Node features of graph neural networks (GNNs) tend to become more similar with the increase of the network depth. This effect is known as over-smoothing, which we axiomatically define as the exponential convergence of suitable similarity measures on the node features. Our definition unifies previous approaches and gives rise to new quantitative measures of over-smoothing. Moreover, we empirically demonstrate this behavior for several over-smoothing measures on different graphs (small-, medium-, and large-scale). We also review several approaches for mitigating over-smoothing and empirically test their effectiveness on real-world graph datasets. Through illustrative examples, we demonstrate that mitigating over-smoothing is a necessary but not sufficient condition for building deep GNNs that are expressive on a wide range of graph learning tasks. Finally, we extend our definition of over-smoothing to the rapidly emerging field of continuous-time GNNs.}
+  }
+  
+@article{https://doi.org/10.48550/arxiv.2302.03580,
+  abbr= {Physics4ML},  
+  price={Spotlight},
+  long_price={Spotlight Presentation (top 7% of all submitted papers)},
+  pdf={https://arxiv.org/pdf/2302.03580.pdf},
+  author = {Equer, Léonard and Rusch, T. Konstantin and Mishra, Siddhartha},
+  title = {Multi-Scale Message Passing Neural PDE Solvers},  
+  year = {2023},
+  journal={ICLR Workshop on Physics for Machine Learning},
+  abstract={We propose a novel multi-scale message passing neural network algorithm for learning the solutions of time-dependent PDEs. Our algorithm possesses both temporal and spatial multi-scale resolution features by incorporating multi-scale sequence models and graph gating modules in the encoder and processor, respectively. Benchmark numerical experiments are presented to demonstrate that the proposed algorithm outperforms baselines, particularly on a PDE with a range of spatial and temporal scales.}
+  }
+
+@article{rusch2022gradient,
+abbr= {ICLR},
+pdf={https://arxiv.org/pdf/2210.00513.pdf},
+abstract={We present Gradient Gating (G^2), a novel framework for improving the performance of
+Graph Neural Networks (GNNs). Our framework is based on gating the output of GNN
+layers with a mechanism for multi-rate flow of message passing information across nodes of the
+underlying graph. Local gradients are harnessed to further modulate message passing updates.
+Our framework flexibly allows one to use any basic GNN layer as a wrapper around which
+the multi-rate gradient gating mechanism is built. We rigorously prove that G^2
+alleviates the oversmoothing problem and allows the design of deep GNNs. Empirical results are presented
+to demonstrate that the proposed framework achieves state-of-the-art performance on a variety
+of graph learning tasks, including on large-scale heterophilic graphs.},
+code={https://github.com/tk-rusch/gradientgating},
+  title={Gradient Gating for Deep Multi-Rate Learning on Graphs},
+  author={Rusch, T. Konstantin and Chamberlain, Benjamin P. and Mahoney, Michael W. and Bronstein, Michael M. and Mishra, Siddhartha},
+  year={2023},
+  code={https://github.com/tk-rusch/gradientgating},
+  journal={The 11th International Conference on Learning Representations.}
+}
+
+@article{graphCON,
+		abbr= {ICML},
+		pdf={https://arxiv.org/pdf/2202.02296.pdf},
+		abstract={We propose Graph-Coupled Oscillator Networks (GraphCON), a novel framework for deep learning on graphs. It is based on discretizations of a second-order system of ordinary differential equations (ODEs), which model a network of nonlinear forced and damped oscillators, coupled via the adjacency structure of the underlying graph. The flexibility of our framework permits any basic GNN layer (e.g. convolutional or attentional) as the coupling function, from which a multi-layer deep neural network is built up via the dynamics of the proposed ODEs. We relate the oversmoothing problem, commonly encountered in GNNs, to the stability of steady states of the underlying ODE and show that zero-Dirichlet energy steady states are not stable for our proposed ODEs. This demonstrates that the proposed framework mitigates the oversmoothing problem. Finally, we show that our approach offers competitive performance with respect to the state-of-the-art on a variety of graph-based learning tasks.},
+      title={Graph-Coupled Oscillator Networks},
+      code={https://github.com/tk-rusch/GraphCON},
+      author={T. Konstantin Rusch and Benjamin P. Chamberlain and James Rowbottom and Siddhartha Mishra and Michael M. Bronstein},
+      journal={The 39th International Conference on Machine Learning.},
+      year={2022},
+}
+
+
+@article{lem,
+  abbr= {ICLR},
+  price={Spotlight},
+  long_price={Spotlight Presentation (top 6% of all submitted papers)},
+  abstract={We propose a novel method called Long Expressive Memory (LEM) for learning long-term sequential dependencies. LEM is gradient-based, it can efficiently process sequential tasks with very long-term dependencies, and it is sufficiently expressive to be able to learn complicated input-output maps. To derive LEM, we consider a system of multiscale ordinary differential equations, as well as a suitable time-discretization of this system. For LEM, we derive rigorous bounds to show the mitigation of the exploding and vanishing gradients problem, a well-known challenge for gradient-based recurrent sequential learning methods. We also prove that LEM can approximate a large class of dynamical systems to high accuracy. Our empirical results, ranging from image and time-series classification through dynamical systems prediction to speech recognition and language modeling, demonstrate that LEM outperforms state-of-the-art recurrent neural networks, gated recurrent units, and long short-term memory models.},
+  pdf={https://arxiv.org/pdf/2110.04744.pdf},
+  code={https://github.com/tk-rusch/LEM},
+  title = 	 {Long Expressive Memory for Sequence Modeling},
+  author =       {Rusch, T. Konstantin and Mishra, Siddhartha and Erichson, N. Benjamin and Mahoney, Michael W.},
+  journal={The 10th International Conference on Learning Representations.},
+  year={2022}}
+
+
+@article{longo2020higher,
+abbr= {SISC},
+abstract={We present a novel algorithmic approach and an error analysis leveraging Quasi-Monte Carlo points for training deep neural network (DNN) surrogates of Data-to-Observable (DtO) maps in engineering design. Our analysis reveals higher-order consistent, deterministic choices of training points in the input data space for deep and shallow Neural Networks with holomorphic activation functions such as tanh. These novel training points are proved to facilitate higher-order decay (in terms of the number of training samples) of the underlying generalization error, with consistency error bounds that are free from the curse of dimensionality in the input data space, provided that DNN weights in hidden layers satisfy certain summability conditions. We present numerical experiments for DtO maps from elliptic and parabolic PDEs with uncertain inputs that confirm the theoretical analysis.},
+pdf={https://arxiv.org/pdf/2009.02713.pdf},
+code={https://github.com/tk-rusch/DL-HoQMC},
+  title={Higher-Order Quasi-Monte Carlo Training of Deep Neural Networks},
+  author={Longo, Marcello and Mishra, Siddhartha and Rusch, T. Konstantin and Schwab, Christoph},
+  journal={SIAM Journal on Scientific Computing.},
+  volume={43},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pages={A3938--A3966},
+  year={2021},
+  publisher={SIAM}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{pmlr-v139-rusch21a,
+  abbr= {ICML},
+  abstract={The design of recurrent neural networks (RNNs)
+to accurately process sequential inputs with longtime dependencies is very challenging on account
+of the exploding and vanishing gradient problem.
+To overcome this, we propose a novel RNN architecture which is based on a structure preserving
+discretization of a Hamiltonian system of secondorder ordinary differential equations that models
+networks of oscillators. The resulting RNN is fast,
+invertible (in time), memory efficient and we derive rigorous bounds on the hidden state gradients
+to prove the mitigation of the exploding and vanishing gradient problem. A suite of experiments
+are presented to demonstrate that the proposed
+RNN provides state of the art performance on a
+variety of learning tasks with (very) long-time
+dependencies.},
+  pdf={https://arxiv.org/pdf/2103.05487.pdf},
+  code={https://github.com/tk-rusch/unicornn},
+  title = 	 {UnICORNN: A recurrent model for learning very long time dependencies},
+  author =       {Rusch, T. Konstantin and Mishra, Siddhartha},
+  journal = 	 {The 38th International Conference on Machine Learning.},
+  pages = 	 {9168--9178},
+  year = 	 {2021},
+  volume = 	 {139},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{rusch2021coupled,
+abbr= {ICLR},
+price={Oral},
+long_price={Oral Presentation (top 1% of all submitted papers)},
+abstract={Circuits of biological neurons, such as in the functional parts of the brain can be modeled as networks of coupled oscillators. Inspired by the ability of these systems to express a rich set of outputs while keeping (gradients of) state variables bounded, we propose a novel architecture for recurrent neural networks. Our proposed RNN is based on a time-discretization of a system of second-order ordinary differential equations, modeling networks of controlled nonlinear oscillators. We prove precise bounds on the gradients of the hidden states, leading to the mitigation of the exploding and vanishing gradient problem for this RNN. Experiments show that the proposed RNN is comparable in performance to the state of the art on a variety of benchmarks, demonstrating the potential of this architecture to provide stable and accurate RNNs for processing complex sequential data.},
+  pdf={https://openreview.net/pdf?id=F3s69XzWOia},
+  code={https://github.com/tk-rusch/coRNN},
+  title={Coupled Oscillatory Recurrent Neural Network (coRNN): An accurate and (gradient) stable architecture for learning long time dependencies},
+  author={Rusch, T. Konstantin and Mishra, Siddhartha},
+  journal={The 9th International Conference on Learning Representations.},
+  year={2021}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{mishra2021enhancing,
+abbr= {SINUM},
+abstract={We propose a deep supervised learning algorithm based on low-discrepancy sequences as the training
+set. By a combination of theoretical arguments and extensive numerical experiments we demonstrate
+that the proposed algorithm significantly outperforms standard deep learning algorithms that are
+based on randomly chosen training data, for problems in moderately high dimensions. The proposed
+algorithm provides an efficient method for building inexpensive surrogates for many underlying maps
+in the context of scientific computing.},
+pdf={https://arxiv.org/pdf/2005.12564.pdf},
+code={https://github.com/tk-rusch/Deep_QMC_sampling},
+  title={Enhancing accuracy of deep learning algorithms by training with low-discrepancy sequences},
+  author={Mishra, Siddhartha and Rusch, T. Konstantin},
+  journal={SIAM Journal on Numerical Analysis.},
+  volume={59},
+  number={3},
+  pages={1811--1834},
+  year={2021},
+  publisher={SIAM}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{rusch2018reproducing,
+abbr= {Turbo Expo},
+abstract={In the conceptual and preliminary aircraft design phase the
+Free-Form Deformation (FFD) is one of various parametrization
+schemes to define the geometry of an engine’s nacelle. This paper
+presents a method that is able to create a C2 continuous periodic
+approximation of existing reference nacelles with the B-spline
+based FFD, which is a generalization of the classical FFD. The
+basic principle of this method is to start with a rotational symmetric B-spline approximation of the reference nacelle, which is
+subsequently deformed with a FFD grid that is placed around
+the initial geometry. A method is derived that computes the displacement of the FFD grid points, such that the deformed nacelle
+approximates the reference nacelle with minimal deviations. As
+this turns out to be a linear inverse problem, it can be solved with
+a linear least squares fit. To avoid overfitting effects – like degenerative FFD grids which imply excessive local deformations
+– the inverse problem is regularized with the Tikhonov approach.
+The NASA CRM model and the IAE V2500 engine have been selected as reference geometries. Both resemble nacelles that are
+typically found on common aircraft models and both deviate sufficiently from the rotational symmetry. It is demonstrated that the
+mean error of the approximation decreases with an increase of
+the number of FFD grid points and how the regularization affects
+these results. Finally, the B-spline based FFD with the classical
+Bernstein based FFD are compared for both models. The results conceptually prove the usability of the FFD approach for
+the construction of nacelle geometries in the preliminary aircraft
+design phase.},
+  title={Reproducing Existing Nacelle Geometries With the Free-Form Deformation Parametrization},
+  author={Rusch, T. Konstantin and Siggel, Martin and Becker, Richard-Gregor},
+  journal={ASME Turbo Expo: Power for Land, Sea, and Air.},
+  volume={51029},
+  pages={V02DT46A015},
+  year={2018},
+  organization={American Society of Mechanical Engineers}
 }
