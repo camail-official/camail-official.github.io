@@ -1,22 +1,39 @@
+---
+---
 {%- comment -%}
   Layout: group_members
-  Groups the list in page.profiles by the front-matter key `category`
-  and prints that category as a heading before the corresponding cards.
+  Renders the list given in page.profiles, but groups items by the
+  `category:` field and prints that category as a heading.
+
+  Example front-matter (in _pages/group.md):
+      layout: group_members
+      title:  Group
+      permalink: /group/
+      profiles:
+        - category: Principal Investigator
+          image: pi.jpg
+          content: pi.md
+        - category: Post-docs
+          image: pd_anna.jpg
+          content: pd_anna.md
+        - category: Post-docs
+          image: pd_bob.jpg
+          content: pd_bob.md
+        - category: PhD students
+          image: phd_chris.jpg
+          content: phd_chris.md
 {%- endcomment -%}
 
 <div class="container">
+
   {%- assign groups = page.profiles | group_by: "category" -%}
 
   {%- for section in groups -%}
-    {%- if section.name != "" and section.name != nil -%}
+    {%- if section.name != "" -%}
       <h2 class="mt-5">{{ section.name }}</h2>
     {%- endif -%}
 
     {%- for p in section.items -%}
-      {%- comment -%}
-        The stock include lives in _includes/profiles.liquid
-        (extension is .html, not .liquid).
-      {%- endcomment -%}
       {% include profiles.liquid
         align          = p.align
         image          = p.image
@@ -26,4 +43,5 @@
       %}
     {%- endfor -%}
   {%- endfor -%}
+
 </div>
