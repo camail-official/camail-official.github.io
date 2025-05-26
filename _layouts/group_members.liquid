@@ -1,0 +1,47 @@
+---
+---
+{%- comment -%}
+  Layout: group_members
+  Renders the list given in page.profiles, but groups items by the
+  `category:` field and prints that category as a heading.
+
+  Example front-matter (in _pages/group.md):
+      layout: group_members
+      title:  Group
+      permalink: /group/
+      profiles:
+        - category: Principal Investigator
+          image: pi.jpg
+          content: pi.md
+        - category: Post-docs
+          image: pd_anna.jpg
+          content: pd_anna.md
+        - category: Post-docs
+          image: pd_bob.jpg
+          content: pd_bob.md
+        - category: PhD students
+          image: phd_chris.jpg
+          content: phd_chris.md
+{%- endcomment -%}
+
+<div class="container">
+
+  {%- assign groups = page.profiles | group_by: "category" -%}
+
+  {%- for section in groups -%}
+    {%- if section.name != "" -%}
+      <h2 class="mt-5">{{ section.name }}</h2>
+    {%- endif -%}
+
+    {%- for p in section.items -%}
+      {% include profile.liquid
+        align          = p.align
+        image          = p.image
+        content        = p.content
+        image_circular = p.image_circular
+        more_info      = p.more_info
+      %}
+    {%- endfor -%}
+  {%- endfor -%}
+
+</div>
