@@ -1,8 +1,6 @@
 ---
-layout: page          # ← inherit the regular page skeleton (navbar, footer, etc.)
+layout: page    # keep all the usual header/footer
 ---
-
-{% include page_header.html %}
 
 {%- assign groups = page.profiles | group_by: "category" -%}
 
@@ -11,15 +9,12 @@ layout: page          # ← inherit the regular page skeleton (navbar, footer, e
     <h2 class="mt-5">{{ section.name }}</h2>
   {%- endif -%}
 
-  <ul class="list-unstyled">
-    {%- for p in section.items -%}
-      {% include profiles.liquid        /* this file now lives in _includes/ */
-        align          = p.align
-        image          = p.image
-        content        = p.content
-        image_circular = p.image_circular
-        more_info      = p.more_info
-      %}
-    {%- endfor -%}
-  </ul>
+  {%- for p in section.items -%}
+    {% include profiles.liquid
+       align=p.align
+       image=p.image
+       content=p.content
+       image_circular=p.image_circular
+       more_info=p.more_info %}
+  {%- endfor -%}
 {%- endfor -%}

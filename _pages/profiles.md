@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 
 profiles:
-  - category: PI
+  - category: Principal Investigator
     align: left
     image: TKRusch.jpeg
     content: about_tkrusch.md
