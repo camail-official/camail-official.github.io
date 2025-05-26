@@ -1,0 +1,6 @@
+/* group-members category colours */
+.member-heading.principal-investigator { color: #116656; } /* red */
+.member-heading.post-docs            { color: #27ae60; } /* green */
+.member-heading.phd-students         { color: #2980b9; } /* blue */
+.member-heading.msc-students         { color: #8e44ad; } /* violet */
+/* add more as needed */

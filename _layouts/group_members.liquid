@@ -6,7 +6,9 @@ layout: page    # keep all the usual header/footer
 
 {%- for section in groups -%}
   {%- if section.name -%}
-    <h2 class="mt-5">{{ section.name }}</h2>
+    <h2 class="mt-5 member-heading {{ section.name | slugify }}">
+  {{ section.name }}
+</h2>
   {%- endif -%}
 
   {%- for p in section.items -%}
