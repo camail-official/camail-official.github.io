@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-tedx-mit-talk-i-got-invited-to-give-a-talk-at-tedx-mit-in-december-2024-highlighting-our-recent-advances-in-physics-inspired-ai",
-          title: 'TEDx MIT Talk: I got invited to give a talk at TEDx MIT...',
+            },},{id: "news-tedx-mit-talk-check-out-the-tedx-mit-talk-of-pi-t-konstantin-rusch",
+          title: 'TEDx MIT Talk: Check out the TEDx MIT talk of PI T. Konstantin...',
           description: "",
           section: "News",},{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
           title: 'Oral Paper at ICLR 2025: Our paper on Oscillatory State-Space Model got accepted...',
