@@ -42,9 +42,6 @@
           %}
         {% endif %}
       {% endif %}
-    {% if entry.price %}
-      <span class="award badge">{{entry.price}}</span>
-    {% endif %}
     </div>
   {% endif %}
 
@@ -56,6 +53,7 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
+      {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
@@ -185,9 +183,6 @@
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
-    </div>
-    <div class="long_price">
-        {{entry.long_price}}
     </div>
 
     <!-- Links/Buttons -->

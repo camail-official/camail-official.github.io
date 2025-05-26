@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Computational Applied Mathematics & AI Lab (CAMAIL) is an independent research group at the Max Planck Institute for Intelligent Systems and the ELLIS Institute Tübingen headed by T. Konstantin Rusch.
+The Computational Applied Mathematics & AI Lab (CAMAIL) is a research group at the Max Planck Institute for Intelligent Systems and the ELLIS Institute Tübingen headed by T. Konstantin Rusch.

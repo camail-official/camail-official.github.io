@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Computational Applied Mathematics & AI Lab (CAMAIL)# the website title (if blank, full name will be used instead)
-first_name: Computational Applied Mathematics & AI Lab
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Computational Applied Mathematics & AI Lab (CAMAIL)
 middle_name:
 last_name:
 short_name: CAMAIL
