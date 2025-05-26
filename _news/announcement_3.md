@@ -5,5 +5,4 @@ inline: true
 ---
 
 **TEDx MIT Talk**: 
-I got invited to give a talk at <a href="https://tedx.mit.edu/">TEDx MIT</a> in 
-December 2024 highlighting our recent advances in physics-inspired AI. 
+Check out the <a href="https://www.youtube.com/watch?v=_MpDy6bL0XE">TEDx MIT talk</a> of PI T. Konstantin Rusch.
