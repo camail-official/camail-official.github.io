@@ -14,10 +14,10 @@
 
     {%- for p in section.items -%}
       {%- comment -%}
-        The stock include lives in _includes/profile.liquid
+        The stock include lives in _includes/profiles.liquid
         (extension is .html, not .liquid).
       {%- endcomment -%}
-      {% include profile.liquid
+      {% include profiles.liquid
         align          = p.align
         image          = p.image
         content        = p.content
