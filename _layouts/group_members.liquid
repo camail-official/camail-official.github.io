@@ -1,14 +1,14 @@
----
-layout: page    # keep all the usual header/footer
----
+{% comment %}
+  _layouts/group_members.liquid
+{% endcomment %}
 
 {%- assign groups = page.profiles | group_by: "category" -%}
 
 {%- for section in groups -%}
   {%- if section.name -%}
     <h2 class="mt-5 member-heading {{ section.name | slugify }}">
-  {{ section.name }}
-</h2>
+      {{ section.name }}
+    </h2>
   {%- endif -%}
 
   {%- for p in section.items -%}
