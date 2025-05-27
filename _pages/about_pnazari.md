@@ -1,0 +1,1 @@
+Philipp Nazari has been a CLS PhD student at CAMAIL since 2025. He earned his master’s degree in mathematics from ETH Zurich and holds a double bachelor’s degree in mathematics and physics from the University of Heidelberg.

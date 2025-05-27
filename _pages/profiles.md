@@ -12,4 +12,9 @@ profiles:
     image: TKRusch.jpeg
     content: about_tkrusch.md
     image_circular: false
+  - category: PhD Students
+    align: left
+    image: p_nazari.jpeg
+    content: about_pnazari.md
+    image_circular: false
 ---
