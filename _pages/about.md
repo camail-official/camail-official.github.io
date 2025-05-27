@@ -6,7 +6,7 @@ subtitle: <strong> <a href="https://is.mpg.de/">Max Planck Institute for Intelli
 
 profile:
   align: right
-  image: camail_logo.png
+  image: camail_logo_2.png
   image_circular: false # crops the image to make it circular
   more_info: 
 
