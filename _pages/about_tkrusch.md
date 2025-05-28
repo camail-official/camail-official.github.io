@@ -1,1 +1,6 @@
-T. Konstantin Rusch has been the Principal Investigator of the Computational Applied Mathematics & AI Lab (CAMAIL) since 2025. Prior to that, he was a postdoctoral researcher at MIT CSAIL, working with Daniela Rus. He received his PhD in Applied Mathematics from ETH Zurich in 2023, where he was advised by Siddhartha Mishra.
+<strong>T. Konstantin Rusch</strong> 
+<ul>
+  <li>Faculty at MPI and ELLIS since 2025</li>
+  <li>Postdoctoral researcher at MIT CSAIL</li>
+  <li>PhD in Applied Mathematics from ETH Zurich</li>
+</ul>
