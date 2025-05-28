@@ -12,7 +12,7 @@ layout: page    # keep all the usual header/footer
   {%- endif -%}
 
   {%- for p in section.items -%}
-    {% include profiles.liquid
+    {% include profile_card.liquid
        align=p.align
        image=p.image
        content=p.content

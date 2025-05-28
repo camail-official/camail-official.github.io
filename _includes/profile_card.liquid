@@ -1,0 +1,34 @@
+{%- comment -%}
+  Renders ONE profile card.
+  Called from group_members.liquid with `include.xxx` variables.
+{%- endcomment -%}
+
+<hr>
+<div class="profile float-{% if include.align == 'left' %}left{% else %}right{% endif %}">
+  {%- if include.image -%}
+    {%- assign img_path = include.image | prepend: 'assets/img/' -%}
+    {%- if include.image_circular -%}
+      {%- assign img_class = 'img-fluid z-depth-1 rounded-circle' -%}
+    {%- else -%}
+      {%- assign img_class = 'img-fluid z-depth-1 rounded' -%}
+    {%- endif -%}
+    {%- capture sizes -%}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{%- endcapture -%}
+    {% include figure.liquid
+       loading="eager"
+       path=img_path
+       class=img_class
+       sizes=sizes
+       alt=include.image %}
+  {%- endif -%}
+
+  {%- if include.more_info -%}
+    <div class="more-info">{{ include.more_info }}</div>
+  {%- endif -%}
+</div>
+
+<div class="clearfix">
+  {%- if include.content -%}
+    {%- capture profile_md -%}{% include_relative {{ include.content }} %}{%- endcapture -%}
+    {{ profile_md | markdownify }}
+  {%- endif -%}
+</div>
