@@ -1,4 +1,6 @@
 **T. Konstantin Rusch**
-* Faculty at MPI and ELLIS since 2025
-* Postdoctoral researcher at MIT CSAIL
-* PhD in Applied Mathematics from ETH Zurich
+<ul style="margin-left: 1.2em; padding-left: 1.2em;">
+<li>Faculty at MPI and ELLIS since 2025</li>
+  <li>Postdoctoral researcher at MIT CSAIL from 2024-2025</li>
+  <li>PhD in Applied Mathematics from ETH Zurich in 2023</li>
+</ul>
