@@ -24,11 +24,9 @@
   <li>PhD in Applied Mathematics from ETH Zurich</li>
 
 <p style="
-  clear: both;          /* start after the floated image           */
-  margin-top: -1rem;  /* pull it upward until it kisses the pic  */
-  padding-top: 1rem;  /* keeps text from colliding with bullets  */
-  font-size: 1rem;
-">
+  clear: both;        /* starts under the floated image           */
+  margin-top: -0.8rem;/* pull upward; make this number less/more  */
+  font-size: 0.9rem;">
   <a href="https://scholar.google.de/citations?user=9LajlSsAAAAJ&hl=en"
      target="_blank" rel="noopener">Google Scholar</a>
   &nbsp;·&nbsp;
