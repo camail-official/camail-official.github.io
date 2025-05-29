@@ -23,7 +23,12 @@
   <li>Postdoctoral researcher at MIT CSAIL from 2024 - 2025</li>
   <li>PhD in Applied Mathematics from ETH Zurich</li>
 
-<p style="clear:both; margin-top:0.5rem; font-size:0.9rem;">
+<p style="
+  clear: both;          /* start after the floated image           */
+  margin-top: -1rem;  /* pull it upward until it kisses the pic  */
+  padding-top: 1rem;  /* keeps text from colliding with bullets  */
+  font-size: 1rem;
+">
   <a href="https://scholar.google.de/citations?user=9LajlSsAAAAJ&hl=en"
      target="_blank" rel="noopener">Google Scholar</a>
   &nbsp;·&nbsp;
