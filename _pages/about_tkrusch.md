@@ -26,4 +26,4 @@
  <a href="https://scholar.google.de/citations?user=9LajlSsAAAAJ&hl=en"
      target="_blank" rel="noopener">Google Scholar</a>
      &nbsp;·&nbsp;
-  <a href="mailto:tkrusch@tue.ellis.eu">tkrusch@tue.ellis.eu</a>
+  <a href="mailto:tkrusch@tue.ellis.eu">Email</a>
