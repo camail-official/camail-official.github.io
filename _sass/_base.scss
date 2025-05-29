@@ -19,9 +19,11 @@ strong {
   color: var(--global-text-color);
 }
 
-h2.member-heading.faculty { color: #116656 !important; }
-h2.member-heading.post-docs            { color: #116656 !important; } 
-h2.member-heading.phd-students         { color: #116656 !important; } 
+h2.member-heading.faculty { color: #828282 !important; }
+h2.member-heading.post-docs            { color: #828282 !important; } 
+h2.member-heading.phd-students         { color: #828282 !important; } 
+h2.member-heading.visiting-students         { color: #828282 !important; } 
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
