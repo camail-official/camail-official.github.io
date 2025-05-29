@@ -14,6 +14,13 @@
       }
     }
   </style>
+  <style>
+@media (max-width:600px){
+  .contact-links{
+    margin-top:-0.3rem;   /* or 0rem—adjust until it looks right */
+  }
+}
+</style>
 </head>
 
 
@@ -23,10 +30,8 @@
   <li>Postdoctoral researcher at MIT CSAIL from 2024 - 2025</li>
   <li>PhD in Applied Mathematics from ETH Zurich</li>
 
-<p style="
-  clear: both;        /* starts under the floated image           */
-  margin-top: -0.8rem;/* pull upward; make this number less/more  */
-  font-size: 0.9rem;">
+<p class="contact-links"
+   style="clear:both; margin-top:-0.8rem; font-size:0.9rem;">
   <a href="https://scholar.google.de/citations?user=9LajlSsAAAAJ&hl=en"
      target="_blank" rel="noopener">Google Scholar</a>
   &nbsp;·&nbsp;
