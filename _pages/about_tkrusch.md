@@ -16,10 +16,9 @@
   </style>
 </head>
 
-<body>
+
 ### T. Konstantin Rusch
 <ul class="flex-indent">
 <li>Faculty at MPI and ELLIS since 2025</li>
   <li>Postdoctoral researcher at MIT CSAIL from 2024 - 2025</li>
   <li>PhD in Applied Mathematics from ETH Zurich</li>
-</body>
