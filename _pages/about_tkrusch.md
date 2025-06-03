@@ -24,6 +24,6 @@
   <li>PhD in Applied Mathematics from ETH Zurich</li>
 <br>
  <a href="https://scholar.google.de/citations?user=9LajlSsAAAAJ&hl=en"
-     target="_blank" rel="noopener"><b>Google Scholar</b></a>
+     target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>
      &nbsp;·&nbsp;
-  <a href="mailto:tkrusch@tue.ellis.eu"><b>Email</b></a>
+  <a href="mailto:tkrusch@tue.ellis.eu"><font size="4"><b>Email</b></font></a>
