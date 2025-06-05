@@ -17,11 +17,10 @@
 </head>
 
 
-### <a href="https://phnazari.github.io/">Philipp Nazari</a>
+### Dennis Thumm (Co-Supervised PhD with NUS)
 <ul class="flex-indent">
-<li>CLS PhD Student (joined ETH Zurich & MPI PhD program) since 2025</li>
-  <li>MSc in Mathematics from ETH Zurich</li>
-  <li>Double BSc in mathematics and physics from the University of Heidelberg</li>
+<li>PhD Student at the National University of Singapore (NUS)</li>
+  <li>MSc in Computational Finance from University College London (UCL)</li>
 <br>
- <a href="https://scholar.google.de/citations?user=SScvNLcAAAAJ&hl=en"
+ <a href="https://scholar.google.com/citations?user=y6TpQgkAAAAJ&hl=en"
      target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>
