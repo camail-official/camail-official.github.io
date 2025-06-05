@@ -22,4 +22,9 @@ profiles:
     image: p_nazari.jpeg
     content: about_pnazari.md
     image_circular: false
+  - category: PhD Students
+    align: left
+    image: dennis.jpg
+    content: about_dennis.md
+    image_circular: false
 ---
