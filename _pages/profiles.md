@@ -14,6 +14,11 @@ profiles:
     image_circular: false
   - category: PhD Students
     align: left
+    image: shlomo.png
+    content: about_shlomo.md
+    image_circular: false
+  - category: PhD Students
+    align: left
     image: p_nazari.jpeg
     content: about_pnazari.md
     image_circular: false
