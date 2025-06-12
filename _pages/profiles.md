@@ -29,6 +29,11 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
+    image: jared_boyer.png
+    content: about_jared.md
+    image_circular: false
+  - category: Visiting Students
+    align: left
     image: michael_vh.jpg
     content: about_michael_vh.md
     image_circular: false
