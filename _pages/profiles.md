@@ -27,4 +27,9 @@ profiles:
     image: dennis.jpg
     content: about_dennis.md
     image_circular: false
+  - category: Visiting Students
+    align: left
+    image: michael_vh.jpg
+    content: about_michael_vh.md
+    image_circular: false
 ---
