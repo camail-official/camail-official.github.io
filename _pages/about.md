@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <strong> <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a> and <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a></strong>
+subtitle: <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a></strong> and <strong> <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a>
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Computational Applied Mathematics & AI Lab (CAMAIL) is a research group at the Max Planck Institute for Intelligent Systems and the ELLIS Institute Tübingen headed by T. Konstantin Rusch.
+The Computational Applied Mathematics & AI Lab (CAMAIL) is a research group at the ELLIS Institute Tübingen and the Max Planck Institute for Intelligent Systems headed by T. Konstantin Rusch.
 <br>
 <br>
 The research focus of CAMAIL is to develop new AI approaches as well as new computational methods that are more efficient, capable, and theoretically grounded by combining modern Machine Learning with Computational Science and Applied Mathematics. A particular focus is on Physics-inspired Machine Learning, AI-driven advances in Computational Science, and theoretical foundations of AI. Moreover, we pursue a wide range of applications, spanning from scientific applications in physics and neuroscience to robot learning. 
