@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a></strong> and <strong> <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a>
+subtitle: <strong> <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tübingen</a></strong> and <strong> <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a>
 
 profile:
   align: right
