@@ -17,7 +17,7 @@
 </head>
 
 
-### Jared Boyer
+### Benedict Armstrong
 <ul class="flex-indent">
-<li>Visiting PhD Student from MIT</li>
-<li>BSc in Aerospace Engineering from MIT</li>
+<li>Visiting CAMAIL to write Bachelor's thesis</li>
+<li>BSc Student in Computational Science and Engineering from ETH</li>
