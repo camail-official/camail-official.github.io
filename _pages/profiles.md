@@ -29,7 +29,7 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: benedict_a.jpg
+    image: benedict_armstrong_2.jpg
     content: about_benedict_a.md
     image_circular: false
   - category: Visiting Students
