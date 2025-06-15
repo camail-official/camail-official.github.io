@@ -19,5 +19,5 @@
 
 ### Benedict Armstrong
 <ul class="flex-indent">
-<li>Visiting CAMAIL to write Bachelor's thesis</li>
+<li>Writing his Bachelor's thesis at CAMAIL</li>
 <li>BSc Student in Computational Science and Engineering from ETH</li>
