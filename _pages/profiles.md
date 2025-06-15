@@ -39,7 +39,7 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: michael_vh.jpg
+    image: michael_vh_2.jpg
     content: about_michael_vh.md
     image_circular: false
 ---
