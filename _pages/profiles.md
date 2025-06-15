@@ -34,7 +34,7 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: jared_boyer.png
+    image: jared_b.png
     content: about_jared.md
     image_circular: false
   - category: Visiting Students
