@@ -22,11 +22,6 @@ profiles:
     image: p_nazari.jpeg
     content: about_pnazari.md
     image_circular: false
-  - category: PhD Students
-    align: left
-    image: dennis.jpg
-    content: about_dennis.md
-    image_circular: false
   - category: Visiting Students
     align: left
     image: benedict_armstrong_2.jpg
@@ -36,6 +31,11 @@ profiles:
     align: left
     image: jared_b.png
     content: about_jared.md
+    image_circular: false
+  - category: Visiting Students
+    align: left
+    image: dennis.jpg
+    content: about_dennis.md
     image_circular: false
   - category: Visiting Students
     align: left
