@@ -1,3 +1,12 @@
+@article{mpmc4prm,
+  abbr= {CORL},
+  pdf={https://arxiv.org/pdf/2410.03909},
+  title={Improving Efficiency of Sampling-based Motion Planning via Message-Passing Monte Carlo},
+  author={Chahine, Makram and Rusch, T. Konstantin and Patterson, Zach J and Rus, Daniela},
+  year = {2025},
+  journal={Conference on Robot Learning},
+  abstract={Sampling-based motion planning methods, while effective in high-dimensional spaces, often suffer from inefficiencies due to irregular sampling distributions, leading to suboptimal exploration of the configuration space. In this paper, we propose an approach that enhances the efficiency of these methods by utilizing low-discrepancy distributions generated through Message-Passing Monte Carlo (MPMC). MPMC leverages Graph Neural Networks (GNNs) to generate point sets that uniformly cover the space, with uniformity assessed using the $L_p$-discrepancy measure, which quantifies the irregularity of sample distributions. By improving the uniformity of the point sets, our approach significantly reduces computational overhead and the number of samples required for solving motion planning problems. Experimental results demonstrate that our method outperforms traditional sampling techniques in terms of planning efficiency.}
+  }
 @article{stolzle2025learning,
   abbr= {arXiv},
   pdf={https://arxiv.org/pdf/2507.10602},
@@ -38,16 +47,6 @@
   year = {2025},
   journal={ICLR Workshop on Frontiers in Probabilistic Inference},
   abstract={Message-Passing Monte Carlo (MPMC) was recently introduced as a novel low-discrepancy sampling approach leveraging tools from geometric deep learning. While originally designed for generating uniform point sets, we extend this framework to sample from general multivariate probability distributions with known probability density function. Our proposed method, Stein-Message-Passing Monte Carlo (Stein-MPMC), minimizes a kernelized Stein discrepancy, ensuring improved sample quality. Finally, we show that Stein-MPMC outperforms competing methods, such as Stein Variational Gradient Descent and (greedy) Stein Points, by achieving a lower Stein discrepancy.}
-  }
-
-@article{mpmc4prm,
-  abbr= {WRL},
-  pdf={https://arxiv.org/pdf/2410.03909},
-  title={Improving Efficiency of Sampling-based Motion Planning via Message-Passing Monte Carlo},
-  author={Chahine, Makram and Rusch, T. Konstantin and Patterson, Zach J and Rus, Daniela},
-  year = {2025},
-  journal={ICLR Workshop on Robot Learning},
-  abstract={Sampling-based motion planning methods, while effective in high-dimensional spaces, often suffer from inefficiencies due to irregular sampling distributions, leading to suboptimal exploration of the configuration space. In this paper, we propose an approach that enhances the efficiency of these methods by utilizing low-discrepancy distributions generated through Message-Passing Monte Carlo (MPMC). MPMC leverages Graph Neural Networks (GNNs) to generate point sets that uniformly cover the space, with uniformity assessed using the the $L_p$-discrepancy measure, which quantifies the irregularity of sample distributions. By improving the uniformity of the point sets, our approach significantly reduces computational overhead and the number of samples required for solving motion planning problems. Experimental results demonstrate that our method outperforms traditional sampling techniques in terms of planning efficiency.}
   }
 
 @article{equi_multi_learn,
