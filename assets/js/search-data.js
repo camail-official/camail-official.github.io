@@ -35,10 +35,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-tedx-mit-talk-check-out-the-tedx-mit-talk-of-pi-t-konstantin-rusch",
-          title: 'TEDx MIT Talk: Check out the TEDx MIT talk of PI T. Konstantin...',
-          description: "",
-          section: "News",},{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
+            },},{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
           title: 'Oral Paper at ICLR 2025: Our paper on Oscillatory State-Space Model got accepted...',
           description: "",
           section: "News",},{id: "news-linoss-in-the-news-check-out-the-mit-news-article-about-our-paper-on-oscillatory-state-space-model",
@@ -46,6 +43,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-hello-world-camail-has-now-officially-launched",
           title: 'Hello World: CAMAIL has now officially launched.',
+          description: "",
+          section: "News",},{id: "news-paper-accepted-at-corl-2025-our-paper-on-improving-efficiency-of-sampling-based-motion-planning-via-message-passing-monte-carlo-got-accepted-at-corl-2025-see-you-in-seoul",
+          title: 'Paper accepted at CORL 2025: Our paper on Improving Efficiency of Sampling-based Motion...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
