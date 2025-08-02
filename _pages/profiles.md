@@ -34,6 +34,11 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
+    image: francesco.jpg
+    content: about_francesco.md
+    image_circular: false
+  - category: Visiting Students
+    align: left
     image: dennis.jpg
     content: about_dennis.md
     image_circular: false
