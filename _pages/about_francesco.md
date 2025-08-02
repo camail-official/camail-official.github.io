@@ -17,10 +17,8 @@
 </head>
 
 
-### Dennis Thumm (Co-Supervised PhD with NUS)
+### Francesco Ruscio
 <ul class="flex-indent">
-<li>PhD Student at the National University of Singapore (NUS)</li>
-  <li>MSc in Computational Finance from University College London (UCL)</li>
-<br>
- <a href="https://scholar.google.com/citations?user=y6TpQgkAAAAJ&hl=en"
-     target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>
+<li>Research Intern</li>
+  <li>MSc in Quantum Engineering from ETH Zurich</li>
+  <li>BSc in Physics Engineering from Politecnico di Milano</li>
