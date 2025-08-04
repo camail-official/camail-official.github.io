@@ -45,7 +45,7 @@ ninja.data = [{
           title: 'Hello World: CAMAIL has now officially launched.',
           description: "",
           section: "News",},{id: "news-paper-accepted-at-corl-2025-our-paper-on-improving-efficiency-of-sampling-based-motion-planning-via-message-passing-monte-carlo-got-accepted-at-corl-2025-see-you-in-seoul",
-          title: 'Paper accepted at CORL 2025: Our paper on Improving Efficiency of Sampling-based Motion...',
+          title: 'Paper accepted at CoRL 2025: Our paper on Improving Efficiency of Sampling-based Motion...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
