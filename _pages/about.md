@@ -6,7 +6,7 @@ subtitle: <strong> <a href="https://institute-tue.ellis.eu/">ELLIS Institute Tü
 
 profile:
   align: right
-  image: camail_logo_2.png
+  image: CAMAIL_Logo_Standard_DARK_SKY_RGB.png
   image_circular: false # crops the image to make it circular
   more_info: 
 
