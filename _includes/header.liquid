@@ -4,8 +4,16 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% assign brand = site.short_name | default: site.title | default: site.first_name %}
-          {{ brand }}
+          {% if site.brand_logo %}
+            <img
+              src="{{ site.brand_logo | relative_url }}"
+              alt="{{ site.short_name | default: site.title | default: site.first_name }}"
+              class="navbar-brand-img"
+            />
+          {% else %}
+            {% assign brand = site.short_name | default: site.title | default: site.first_name %}
+            {{ brand }}
+          {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
