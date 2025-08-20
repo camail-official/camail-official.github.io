@@ -389,6 +389,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+/* Navbar brand image sizing */
+.navbar .navbar-brand-img {
+  height: 28px;   /* tweak this: 24–32px usually looks good */
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
 #light-toggle,
 #search-toggle {
   padding: 0;
