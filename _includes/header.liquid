@@ -2,23 +2,23 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.brand_logo %}
-            <img
-              src="{{ site.brand_logo | relative_url }}"
-              alt="{{ site.short_name | default: site.title | default: site.first_name }}"
-              class="navbar-brand-img"
-            />
-          {% else %}
-            {% assign brand = site.short_name | default: site.title | default: site.first_name %}
-            {{ brand }}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
+    <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        {% if site.brand_logo %}
+          <img
+            src="{{ site.brand_logo | relative_url }}"
+            alt="{{ site.short_name | default: site.title | default: site.first_name }}"
+            class="navbar-brand-img"
+          />
+        {% else %}
+          {% assign brand = site.short_name | default: site.title | default: site.first_name %}
+          {{ brand }}
+        {% endif %}
+      </a>
+      
+      {% if site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
+      {% endif %}        
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
