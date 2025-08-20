@@ -29,11 +29,6 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: jared_b.png
-    content: about_jared.md
-    image_circular: false
-  - category: Visiting Students
-    align: left
     image: francesco.jpg
     content: about_francesco.md
     image_circular: false
@@ -46,5 +41,8 @@ profiles:
     align: left
     image: michael_vh_2.jpg
     content: about_michael_vh.md
+    image_circular: false
+  - category: Past Member
+    content: about_jared.md
     image_circular: false
 ---
