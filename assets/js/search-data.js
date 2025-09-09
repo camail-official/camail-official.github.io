@@ -48,7 +48,7 @@ ninja.data = [{
           title: 'Paper accepted at CoRL 2025: Our paper on Improving Efficiency of Sampling-based Motion...',
           description: "",
           section: "News",},{id: "news-t-konstantin-rusch-joined-liquid-ai-we-are-excited-about-pushing-the-boundaries-of-what-is-possible-on-efficient-ai-together",
-          title: '**T. Konstantin Rusch joined Liquid AI** We are excited about pushing the boundaries...',
+          title: 'T. Konstantin Rusch joined Liquid AI We are excited about pushing the boundaries...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
