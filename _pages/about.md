@@ -28,3 +28,6 @@ The Computational Applied Mathematics & AI Lab (CAMAIL) is a research group at t
 <br>
 <br>
 The research focus of CAMAIL is to develop new AI approaches as well as new computational methods that are more efficient, capable, and theoretically grounded by combining modern Machine Learning with Computational Science and Applied Mathematics. A particular focus is on Physics-inspired Machine Learning, AI-driven advances in Computational Science, and theoretical foundations of AI. Moreover, we pursue a wide range of applications, spanning from scientific applications in physics and neuroscience to robot learning. 
+<br>
+<br>
+**We are hiring.** If you are interested in joining our group as a PhD student, postdoc or intern, feel free to reach out via email. Please include a CV and transcripts of your grades when first reaching out. We will admit PhD students through the <a href="https://ellis.eu/phd-postdoc">ELLIS</a>, <a href="https://learning-systems.org/">CLS</a>, and <a href="https://imprs.is.mpg.de/">IMPRS</a> programs, the application deadlines are usually around November.
