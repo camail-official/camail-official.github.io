@@ -17,10 +17,9 @@
 </head>
 
 
-### Dennis Thumm (Co-Supervised PhD with NUS)
+### Dennis Thumm
 <ul class="flex-indent">
-<li>PhD Student at the National University of Singapore (NUS)</li>
-  <li>MSc in Computational Finance from University College London (UCL)</li>
+<li>Visiting PhD Student from the National University of Singapore (NUS)</li>
 <br>
  <a href="https://scholar.google.com/citations?user=y6TpQgkAAAAJ&hl=en"
      target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>
