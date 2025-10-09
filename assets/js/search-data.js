@@ -51,7 +51,7 @@ ninja.data = [{
           title: 'T. Konstantin Rusch joined Liquid AI as Scientific Advisor: We are excited about...',
           description: "",
           section: "News",},{id: "news-t-konstantin-rusch-will-serve-as-an-area-chair-at-iclr-2026",
-          title: 'T. Konstantin Rusch will serve as an Area Chair at ICLR 2026',
+          title: 'T. Konstantin Rusch will serve as an Area Chair at ICLR 2026.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
