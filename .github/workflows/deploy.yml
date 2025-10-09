@@ -66,7 +66,7 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
+    # available images: https://github.com/actions/runner-images#available-image
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
