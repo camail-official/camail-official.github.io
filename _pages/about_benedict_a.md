@@ -19,5 +19,5 @@
 
 ### Benedict Armstrong
 <ul class="flex-indent">
-<li>Writing his Bachelor's thesis at CAMAIL</li>
-<li>BSc Student in Computational Science and Engineering from ETH</li>
+<li>Research Engineer at CAMAIL</li>
+<li>MSc Student in Computational Science and Engineering at ETH Zurich</li>
