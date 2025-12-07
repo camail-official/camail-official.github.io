@@ -1,1 +1,1 @@
-Jared Boyer (Visiting PhD Student from MIT)
+Jared Boyer (visiting PhD student from MIT, 2025)
