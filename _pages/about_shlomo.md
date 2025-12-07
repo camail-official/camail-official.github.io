@@ -17,8 +17,8 @@
 </head>
 
 
-### Shlomo Libo Feigin
+### <a href="https://shlomolibo.github.io/">Shlomo Libo Feigin</a>
 <ul class="flex-indent">
-<li>CLS PhD Student (joined ETH Zurich & MPI PhD program) since 2025</li>
-  <li>MSc in Computer Science from TU Munich</li>
-  <li>BSc in Computer Science from Tel Aviv University</li>
+<li>PhD Student since 2025 (Coadvisor: Thomas Hofmann, ETH Zurich)</li>
+<li>MSc in Computer Science from TU Munich</li>
+<li>BSc in Computer Science from Tel Aviv University</li>
