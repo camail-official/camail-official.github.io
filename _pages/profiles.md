@@ -37,12 +37,10 @@ profiles:
     image: dennis.jpg
     content: about_dennis.md
     image_circular: false
-  - category: Visiting Students
-    align: left
-    image: michael_vh_2.jpg
-    content: about_michael_vh.md
-    image_circular: false
   - category: Past Members
     content: about_jared.md
+    image_circular: false
+  - category: Past Members
+    content: about_michael_vh.md
     image_circular: false
 ---
