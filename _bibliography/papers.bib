@@ -1,4 +1,14 @@
 
+@article{nazari2026keystatereductionlinear, 
+  abbr= {NFAM},
+  pdf={https://arxiv.org/pdf/2602.04852},
+  title={The Key to State Reduction in Linear Attention: A Rank-based Perspective},
+  code={https://github.com/camail-official/LinearAttentionPruning},
+  author={Philipp Nazari and T. Konstantin Rusch},  
+  year = {2026},
+  journal={ICLR Workshop on New Frontiers in Associative Memories},
+  abstract={Linear attention offers a computationally efficient yet expressive alternative to softmax attention. However, recent empirical results indicate that the state of trained linear attention models often exhibits a low-rank structure, suggesting that these models underexploit their capacity in practice. To illuminate this phenomenon, we provide a theoretical analysis of the role of rank in linear attention, revealing that low effective rank can affect retrieval error by amplifying query noise. In addition to these theoretical insights, we conjecture that the low-rank states can be substantially reduced post-training with only minimal performance degradation, yielding faster and more memory-efficient models. To this end, we propose a novel hardware-aware approach that structurally prunes key and query matrices, reducing the state size while retaining compatibility with existing CUDA kernels. We adapt several existing pruning strategies to fit our framework and, building on our theoretical analysis, propose a novel structured pruning method based on a rank-revealing QR decomposition. Our empirical results, evaluated across models of varying sizes and on various downstream tasks, demonstrate the effectiveness of our state reduction framework. We highlight that our framework enables the removal of 50% of the query and key channels at only a marginal increase in perplexity.}
+  }
 @article{lpfm,
   abbr= {DeLTa},
   pdf={https://openreview.net/attachment?id=hOE4H2JRKG&name=pdf},
@@ -21,16 +31,6 @@ reducing sampling cost compared to standard baselines.}
   year = {2026},
   journal={ICLR Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy},
   abstract={Mixture-of-Experts (MoE) architectures scale computation via sparse expert activations, yet they remain memory-bound because all expert weights must reside in memory. Mixed-precision quantization can substantially reduce this footprint, but existing quantization methods estimate expert importance and assign bits based on calibration data. For frontier MoE LLMs, however, the original training data (and thus its true training distribution) is proprietary and inaccessible. Thus, any calibration set is at best a surrogate and may yield a biased or incomplete view of expert utilization, leading to suboptimal bit allocation. To address these problems, we propose AlphaQ, a novel calibration-free bit-allocation method for MoE quantization. AlphaQ is inspired by Heavy-Tailed Self-Regularization (HT-SR) theory; and it is based on a simple but effective principle: experts with more heavy-tailed weight spectra tend to be better trained, and therefore merit higher bits, and vice versa. We find that different MoE variants can exhibit substantial cross-expert quality variability, calling for a nuanced bit allocation, that is difficult to achieve with limited/biased calibration data. By leveraging HT-SR theory, AlphaQ incorporates expert-wise spectral heavy-tailedness and formulates mixed-precision quantization as a budget-constrained optimization problem that minimizes total quantization error under a global bit-budget constraint. Empirical results on DeepSeekV2-Lite, Qwen1.5-MoE, and Mixtral-8 x 7B show that AlphaQ consistently outperforms calibration-based baselines under matched bit budgets. Notably, on Qwen1.5-MoE, AlphaQ achieves near full-precision accuracy, with an average expert precision of 3.5 bits, while delivering more than 4 x memory compression.}
-  }
-@article{nazari2026keystatereductionlinear, 
-  abbr= {arXiv},
-  pdf={https://arxiv.org/pdf/2602.04852},
-  title={The Key to State Reduction in Linear Attention: A Rank-based Perspective},
-  code={https://github.com/camail-official/LinearAttentionPruning},
-  author={Philipp Nazari and T. Konstantin Rusch},  
-  year = {2026},
-  journal={Arxiv preprint.},
-  abstract={Linear attention offers a computationally efficient yet expressive alternative to softmax attention. However, recent empirical results indicate that the state of trained linear attention models often exhibits a low-rank structure, suggesting that these models underexploit their capacity in practice. To illuminate this phenomenon, we provide a theoretical analysis of the role of rank in linear attention, revealing that low effective rank can affect retrieval error by amplifying query noise. In addition to these theoretical insights, we conjecture that the low-rank states can be substantially reduced post-training with only minimal performance degradation, yielding faster and more memory-efficient models. To this end, we propose a novel hardware-aware approach that structurally prunes key and query matrices, reducing the state size while retaining compatibility with existing CUDA kernels. We adapt several existing pruning strategies to fit our framework and, building on our theoretical analysis, propose a novel structured pruning method based on a rank-revealing QR decomposition. Our empirical results, evaluated across models of varying sizes and on various downstream tasks, demonstrate the effectiveness of our state reduction framework. We highlight that our framework enables the removal of 50% of the query and key channels at only a marginal increase in perplexity.}
   }
 @article{chahine2025curiouscaseintrainingcompression,
   abbr= {ICLR},
