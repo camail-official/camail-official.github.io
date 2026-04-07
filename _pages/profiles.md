@@ -22,6 +22,11 @@ profiles:
     image: p_nazari.jpeg
     content: about_pnazari.md
     image_circular: false
+  - category: Visiting Students
+    align: left
+    image: faissal_headshot.jpg
+    content: about_faissal.md
+    image_circular: false
   - category: Past Members
     content: about_jared.md
     image_circular: false
