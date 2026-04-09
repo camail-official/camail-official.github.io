@@ -6,6 +6,11 @@ nav: true
 nav_order: 4
 ---
 
+<a href="https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409"><font size="4"><b>New technique makes AI models leaner and faster while they’re still learning</b></font></a> 
+<br>
+<strong>April 9, 2026</strong>
+<br>
+<br>
 <a href="https://news.mit.edu/2025/novel-ai-model-inspired-neural-dynamics-from-brain-0502"><font size="4"><b>Novel AI model inspired by neural dynamics from the brain</b></font></a> 
 <br>
 <strong>May 2, 2025</strong>
