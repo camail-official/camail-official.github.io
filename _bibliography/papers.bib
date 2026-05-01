@@ -1,4 +1,14 @@
 
+@article{vanhuffel2025neurallowdiscrepancysequences,
+  abbr= {ICML},
+  pdf={https://arxiv.org/pdf/2510.03745},
+  title={Neural Low-Discrepancy Sequences},
+  code={https://github.com/camail-official/neuro-lds},
+  author={Michael Etienne Van Huffel and Nathan Kirk and Makram Chahine and Daniela Rus and T. Konstantin Rusch},  
+  year = {2026},
+  journal={Forty-Third International Conference on Machine Learning.},
+  abstract={Low-discrepancy points are designed to efficiently fill the space in a uniform manner. This uniformity is highly advantageous in many problems in science and engineering, including in numerical integration, computer vision, machine perception, computer graphics, machine learning, and simulation. Whereas most previous low-discrepancy constructions rely on abstract algebra and number theory, Message-Passing Monte Carlo (MPMC) was recently introduced to exploit machine learning methods for generating point sets with lower discrepancy than previously possible. However, MPMC is limited to generating point sets and cannot be extended to low-discrepancy sequences (LDS), i.e., sequences of points in which every prefix has low discrepancy, a property essential for many applications. To address this limitation, we introduce Neural Low-Discrepancy Sequences (NeuroLDS), the first machine learning-based framework for generating LDS. Drawing inspiration from classical LDS, we train a neural network to map indices to points such that the resulting sequences exhibit minimal discrepancy across all prefixes. To this end, we deploy a two-stage learning process: supervised approximation of classical constructions followed by unsupervised fine-tuning to minimize prefix discrepancies. We demonstrate that NeuroLDS outperforms all previous LDS constructions by a significant margin with respect to discrepancy measures. Moreover, we demonstrate the effectiveness of NeuroLDS across diverse applications, including numerical integration, robot motion planning, and scientific machine learning. These results highlight the promise and broad significance of Neural Low-Discrepancy Sequences.}
+  }
 @article{nazari2026keystatereductionlinear, 
   abbr= {NFAM},
   pdf={https://arxiv.org/pdf/2602.04852},
@@ -60,16 +70,6 @@ reducing sampling cost compared to standard baselines.}
   year = {2025},
   journal={Arxiv preprint.},
   abstract={How much does a trained RL policy actually use its past observations? We propose \emph{Temporal Range}, a model-agnostic metric that treats first-order sensitivities of multiple vector outputs across a temporal window to the input sequence as a temporal influence profile and summarizes it by the magnitude-weighted average lag. Temporal Range is computed via reverse-mode automatic differentiation from the Jacobian blocks ∂ys/∂xt∈ℝc×d averaged over final timesteps s∈{t+1,…,T} and is well-characterized in the linear setting by a small set of natural axioms. Across diagnostic and control tasks (POPGym; flicker/occlusion; Copy-k) and architectures (MLPs, RNNs, SSMs), Temporal Range (i) remains small in fully observed control, (ii) scales with the task's ground-truth lag in Copy-k, and (iii) aligns with the minimum history window required for near-optimal return as confirmed by window ablations. We also report Temporal Range for a compact Long Expressive Memory (LEM) policy trained on the task, using it as a proxy readout of task-level memory. Our axiomatic treatment draws on recent work on range measures, specialized here to temporal lag and extended to vector-valued outputs in the RL setting. Temporal Range thus offers a practical per-sequence readout of memory dependence for comparing agents and environments and for selecting the shortest sufficient context.}
-  }
-@article{vanhuffel2025neurallowdiscrepancysequences,
-  abbr= {arXiv},
-  pdf={https://arxiv.org/pdf/2510.03745},
-  title={Neural Low-Discrepancy Sequences},
-  code={https://github.com/camail-official/neuro-lds},
-  author={Michael Etienne Van Huffel and Nathan Kirk and Makram Chahine and Daniela Rus and T. Konstantin Rusch},  
-  year = {2025},
-  journal={Arxiv preprint.},
-  abstract={Low-discrepancy points are designed to efficiently fill the space in a uniform manner. This uniformity is highly advantageous in many problems in science and engineering, including in numerical integration, computer vision, machine perception, computer graphics, machine learning, and simulation. Whereas most previous low-discrepancy constructions rely on abstract algebra and number theory, Message-Passing Monte Carlo (MPMC) was recently introduced to exploit machine learning methods for generating point sets with lower discrepancy than previously possible. However, MPMC is limited to generating point sets and cannot be extended to low-discrepancy sequences (LDS), i.e., sequences of points in which every prefix has low discrepancy, a property essential for many applications. To address this limitation, we introduce Neural Low-Discrepancy Sequences (NeuroLDS), the first machine learning-based framework for generating LDS. Drawing inspiration from classical LDS, we train a neural network to map indices to points such that the resulting sequences exhibit minimal discrepancy across all prefixes. To this end, we deploy a two-stage learning process: supervised approximation of classical constructions followed by unsupervised fine-tuning to minimize prefix discrepancies. We demonstrate that NeuroLDS outperforms all previous LDS constructions by a significant margin with respect to discrepancy measures. Moreover, we demonstrate the effectiveness of NeuroLDS across diverse applications, including numerical integration, robot motion planning, and scientific machine learning. These results highlight the promise and broad significance of Neural Low-Discrepancy Sequences.}
   }
 @article{diff_discrepancies,
   abbr= {arXiv},
