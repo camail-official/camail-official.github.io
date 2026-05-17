@@ -27,6 +27,11 @@ profiles:
     image: faissal_headshot.jpg
     content: about_faissal.md
     image_circular: false
+  - category: Visiting Students
+    align: left
+    image: neehal.jpg
+    content: about_neehal.md
+    image_circular: false
   - category: Past Members
     content: about_jared.md
     image_circular: false
