@@ -29,6 +29,11 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
+    image: sumin.jpeg
+    content: about_sumin.md
+    image_circular: false
+  - category: Visiting Students
+    align: left
     image: neehal.jpg
     content: about_neehal.md
     image_circular: false
