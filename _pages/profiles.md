@@ -14,6 +14,11 @@ profiles:
     image_circular: false
   - category: PhD Students
     align: left
+    image: hanru.jpg
+    content: about_hanru.md
+    image_circular: false
+  - category: PhD Students
+    align: left
     image: shlomo.png
     content: about_shlomo.md
     image_circular: false
