@@ -17,7 +17,7 @@
 </head>
 
 
-### Neehal Tumma
+### <a href="https://ntumm120.github.io/">Neehal Tumma</a>
 <ul class="flex-indent">
 <li>Visiting PhD student from MIT</li>
 <li>MSc in CS from Harvard University</li>

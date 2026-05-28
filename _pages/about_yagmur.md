@@ -17,7 +17,6 @@
 </head>
 
 
-###<a href="https://psmiz.github.io/">Sumin Park</a>
+### Öykü Yağmur
 <ul class="flex-indent">
-<li>Research Intern</li>
-<li>MSc student in CS at KAIST</li>
+<li><a href="https://www.projects.tuebingen.mpg.de/">CaCTüS</a> research intern</li>
