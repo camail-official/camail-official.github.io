@@ -17,7 +17,7 @@
 </head>
 
 
-###<a href="https://psmiz.github.io/">Sumin Park</a>
+### <a href="https://psmiz.github.io/">Sumin Park</a>
 <ul class="flex-indent">
 <li>Research Intern</li>
 <li>MSc student in CS at KAIST</li>
