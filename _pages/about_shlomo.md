@@ -22,3 +22,6 @@
 <li>PhD Student since 2025 (Coadvisor: Thomas Hofmann, ETH Zurich)</li>
 <li>MSc in Computer Science from TU Munich</li>
 <li>BSc in Computer Science from Tel Aviv University</li>
+<br>
+ <a href="https://scholar.google.de/citations?user=DqmsRiIAAAAJ&hl=en&oi=sra"
+     target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>

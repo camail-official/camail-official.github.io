@@ -21,3 +21,6 @@
 <ul class="flex-indent">
 <li>Research Intern</li>
 <li>MSc student in CS at KAIST</li>
+<br>
+ <a href="https://scholar.google.com/citations?user=bhkxtOcAAAAJ"
+     target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>

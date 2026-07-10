@@ -30,12 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/press/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Recorded talks, lectures, and interviews from the group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
+        },{id: "news-oral-paper-at-iclr-2025-our-paper-on-oscillatory-state-space-model-got-accepted-as-an-oral-at-iclr-2025-see-you-in-singapore",
           title: 'Oral Paper at ICLR 2025: Our paper on Oscillatory State-Space Model got accepted...',
           description: "",
           section: "News",},{id: "news-linoss-in-the-news-check-out-the-mit-news-article-about-our-paper-on-oscillatory-state-space-model",
@@ -56,49 +58,4 @@ ninja.data = [{
           section: "News",},{id: "news-papers-accepted-at-iclr-2026-our-lab-will-present-4-papers-at-iclr-2026-in-rio-1-full-paper-and-3-workshop-papers-on-control-theoretic-in-training-compression-of-ssms-frequency-aware-flow-matching-structured-pruning-of-gated-deltanet-models-and-data-free-mixed-precision-quantization-of-moes",
           title: 'Papers accepted at ICLR 2026: Our lab will present 4 papers at ICLR...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},];
+          section: "News",},];
