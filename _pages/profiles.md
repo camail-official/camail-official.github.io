@@ -39,11 +39,6 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: neehal.jpg
-    content: about_neehal.md
-    image_circular: false
-  - category: Visiting Students
-    align: left
     image: yagmur.jpg
     content: about_yagmur.md
     image_circular: false
