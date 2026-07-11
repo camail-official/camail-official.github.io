@@ -17,7 +17,10 @@
 </head>
 
 
-### Hanru Bai
+### <a href="https://baitie00.github.io/#about">Hanru Bai</a>
 <ul class="flex-indent">
 <li>Incoming CLS PhD student (Second advisor: Siddhartha Mishra, ETH Zurich)</li>
 <li>MSc in Applied Mathematics from Fudan University</li>
+<br>
+ <a href="https://scholar.google.com/citations?user=Phfpb70AAAAJ&hl=en"
+     target="_blank" rel="noopener"><strong>Google Scholar</strong></a>

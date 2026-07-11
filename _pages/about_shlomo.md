@@ -24,4 +24,4 @@
 <li>BSc in Computer Science from Tel Aviv University</li>
 <br>
  <a href="https://scholar.google.de/citations?user=DqmsRiIAAAAJ&hl=en&oi=sra"
-     target="_blank" rel="noopener"><font size="4"><b>Google Scholar</b></font></a>
+     target="_blank" rel="noopener"><strong>Google Scholar</strong></a>

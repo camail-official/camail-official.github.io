@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-press",
           title: "Press",
-          description: "",
+          description: "Media coverage and features of the group&#39;s research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/press/";
