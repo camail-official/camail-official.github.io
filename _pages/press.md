@@ -2,35 +2,78 @@
 layout: page
 permalink: /press/
 title: Press
+description: Media coverage and features of the group's research.
 nav: true
 nav_order: 4
 ---
 
-<a href="https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409"><font size="4"><b>New technique makes AI models leaner and faster while they’re still learning</b></font></a> 
-<br>
-<strong>April 9, 2026</strong>
-<br>
-<br>
-<a href="https://news.mit.edu/2025/novel-ai-model-inspired-neural-dynamics-from-brain-0502"><font size="4"><b>Novel AI model inspired by neural dynamics from the brain</b></font></a> 
-<br>
-<strong>May 2, 2025</strong>
-<br>
-<br>
-<a href="https://www.forbes.com/sites/johnwerner/2024/12/24/oscillating-state-space-models-or-a-robot-does-thedishes/"><font size="4"><b>Oscillatory State-Space Models: Toward Physical Intelligence</b></font></a> 
-<br>
-<strong>December 24, 2024</strong>
-<br>
-<br>
-<a href="https://www.youtube.com/watch?v=_MpDy6bL0XE"><font size="4"><b>T. Konstantin Rusch gave a TEDx MIT talk</b></font></a> 
-<br>
-<strong>December 19, 2024</strong>
-<br>
-<br>
-<a href="https://news.mit.edu/2024/how-ai-improving-simulations-smarter-sampling-techniques-1002"><font size="4"><b>How AI is improving simulations with smarter sampling techniques</b></font></a>
-<br>
-<strong>October 2, 2024</strong>
-<br>
-<br>
-<a href="https://twimlai.com/podcast/twimlai/learning-long-time-dependencies-rnns-thorben-konstantin-rusch/"><font size="4"><b>T. Konstantin Rusch was invited on the popular TWIML AI Podcast</b></font></a> 
-<br>
-<strong>May 17, 2021</strong>
+<style>
+  .press-list {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .press-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .press-item:last-child {
+    border-bottom: none;
+  }
+  .press-date {
+    flex: 0 0 7.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .press-body {
+    flex: 1;
+  }
+  .press-outlet {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+    margin-bottom: 0.2rem;
+  }
+  .press-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .press-title a {
+    color: inherit;
+  }
+  .press-title a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+  @media (max-width: 576px) {
+    .press-item {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .press-date {
+      flex: none;
+      order: 2;
+    }
+  }
+</style>
+
+<div class="press-list">
+  {% assign press_sorted = site.data.press | sort: "date" | reverse %}
+  {% for item in press_sorted %}
+  <div class="press-item">
+    <div class="press-date">{{ item.date | date: "%B %-d, %Y" }}</div>
+    <div class="press-body">
+      <span class="press-outlet">{{ item.outlet }}</span>
+      <p class="press-title"><a href="{{ item.url }}">{{ item.title }}</a></p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
