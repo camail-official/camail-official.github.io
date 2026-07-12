@@ -78,7 +78,12 @@ nav: false
     }
     .pi-timeline li {
       flex-direction: column;
-      gap: 0;
+      gap: 0.15rem;
+      padding: 0.6rem 0;
+    }
+    .pi-timeline .years {
+      flex: none;
+      font-size: 0.85rem;
     }
   }
 </style>
