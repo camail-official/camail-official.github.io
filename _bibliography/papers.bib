@@ -1,13 +1,29 @@
-
 @article{movahedi2026fixedpointreasonersstableadaptive,
-  abbr= {arXiv},
+  abbr= {NeurIPS},
   pdf={https://arxiv.org/pdf/2606.18206},
   title={Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers},
   code={https://github.com/nilskiKonjIzDunava/fprm},
-  author={Sajad Movahedi and Vera Milovanović and Shlomo Libo Feigin and Alexander Theus and Thomas Hofmann and Valentina Boeva and T. Konstantin Rusch and Antonio Orvieto},  
+  author={Sajad Movahedi* and Vera Milovanović* and Shlomo Libo Feigin* and Alexander Theus* and Thomas Hofmann and Valentina Boeva† and T. Konstantin Rusch† and Antonio Orvieto†},
   year = {2026},
-  journal={Arxiv preprint.},
+  journal={The 40th Conference on Neural Information Processing Systems.},
   abstract={Looped architectures provide an inductive bias toward learning step-by-step procedures for tasks that require compositional reasoning. The number of effective layers reached by looping determines the quality of the solution these models find. Like deep architectures, looped architectures are prone to a signal propagation problem induced by depth as the halting decision is postponed. In this paper, we address this signal propagation issue using pre-norm layers and residual scaling. Building on these architectural modifications, we propose FPRM, a Transformer-based Fixed-Point Reasoning Model that uses fixed-point convergence as an end-to-end halting mechanism in a looped architecture. We show that fixed-point halting allows FPRM to adapt its compute to task difficulty. FPRM is effective on common reasoning benchmarks, namely Sudoku, Maze, state-tracking, and ARC-AGI.}
+  }
+@article{alphaq,
+  abbr= {NeurIPS},
+  pdf={https://openreview.net/pdf?id=rbE8Pxs8vx},
+  title={AlphaQ: Calibration-Free Bit Allocation for Mixture-of-Experts Quantization},
+  author={Wanqi Yang and Yuexiao Ma and Alexander Conzelmann and Xiawu Zheng and Michael W. Mahoney and T. Konstantin Rusch and Shiwei Liu},  
+  year = {2026},
+  journal={The 40th Conference on Neural Information Processing Systems.},
+  abstract={Mixture-of-Experts (MoE) architectures scale computation via sparse expert activations, yet they remain memory-bound because all expert weights must reside in memory. Mixed-precision quantization can substantially reduce this footprint, but existing quantization methods estimate expert importance and assign bits based on calibration data. For frontier MoE LLMs, however, the original training data (and thus its true training distribution) is proprietary and inaccessible. Thus, any calibration set is at best a surrogate and may yield a biased or incomplete view of expert utilization, leading to suboptimal bit allocation. To address these problems, we propose AlphaQ, a novel calibration-free bit-allocation method for MoE quantization. AlphaQ is inspired by Heavy-Tailed Self-Regularization (HT-SR) theory; and it is based on a simple but effective principle: experts with more heavy-tailed weight spectra tend to be better trained, and therefore merit higher bits, and vice versa. We find that different MoE variants can exhibit substantial cross-expert quality variability, calling for a nuanced bit allocation, that is difficult to achieve with limited/biased calibration data. By leveraging HT-SR theory, AlphaQ incorporates expert-wise spectral heavy-tailedness and formulates mixed-precision quantization as a budget-constrained optimization problem that minimizes total quantization error under a global bit-budget constraint. Empirical results on DeepSeekV2-Lite, Qwen1.5-MoE, and Mixtral-8 x 7B show that AlphaQ consistently outperforms calibration-based baselines under matched bit budgets. Notably, on Qwen1.5-MoE, AlphaQ achieves near full-precision accuracy, with an average expert precision of 3.5 bits, while delivering more than 4 x memory compression.}
+  }
+@article{phyts,
+  abbr= {NeurIPS},
+  title={PhyTS: A Benchmark for Scientific Time Series},
+  author={Benedict Armstrong and Jeroen Audenaert and Hannah P. Binney and Alice Cheng and Maarten De Vos and Luis Felipe Koehler Domingues and Allison Eto and Mary Feliz and Joseph Formaggio and J. T. Fry and Philip Harris and Ilay Kamai and Erik Katsavounidis and Mykyta Kliapets and Konstantinos Kontras and Aobo Li and Paul Pu Liang and Daniel Muthukrishna and Christina Reissel and Daniela Rus and T. Konstantin Rusch and Avi Shporer and Penny L. Slocum and Talia E. Weiss and Lindley A. Winslow and Kyungseop Yoon},
+  year = {2026},
+  journal={The 40th Conference on Neural Information Processing Systems.},
+  abstract={We introduce PhyTS, a benchmark suite of precision scientific time series datasets for machine learning, spanning experiments in gravitational-wave detection, dark matter searches, neutrino mass determination, and exoplanet discovery. Despite their diverse scientific goals, these domains share a common challenge: recovering weak, structured signals and estimating underlying physical parameters from noise-dominated measurements. Unlike standard sequence modeling benchmarks such as audio and speech, these data exhibit non-Gaussian and nonstationary noise, long-range temporal correlations, detector-specific systematics, irregular sampling, and signals that are sparse, weak, or only partially modeled. As a result, they provide a challenging testbed for evaluating whether modern AI methods can support downstream scientific inference. We provide standardized tasks, data splits, and evaluation protocols for denoising, signal recovery, and parameter inference across physics domains, along with baseline results. By unifying diverse weak-signal inference problems under a common framework, this benchmark aims to enable reproducible evaluation and accelerate the development of more robust, interpretable, and physically grounded methods for scientific time series analysis.}
   }
 @article{nazari2026keystatereductionlinear, 
   abbr= {AdaptFM},
@@ -44,15 +60,6 @@ address this, we introduce Low-Pass Flow Matching, a variant of Flow Matching
 based on an operator-modulated interpolant. This formulation induces a timevarying spectral bias that transitions from the source spectrum to a frequencydecaying bias as the path approaches the data. We validate our method on unconditional image generation tasks, including the scientific Galaxy10 dataset. Empirically, we show that our method is particularly effective when paired with adaptive
 ODE solvers, where it improves or preserves sample quality while substantially
 reducing sampling cost compared to standard baselines.}
-  }
-@article{alphaq,
-  abbr= {DeLTa},
-  pdf={https://openreview.net/pdf?id=rbE8Pxs8vx},
-  title={AlphaQ: Calibration-Free Bit Allocation for Mixture-of-Experts Quantization},
-  author={Wanqi Yang and Yuexiao Ma and Alexander Conzelmann and Xiawu Zheng and Michael W. Mahoney and T. Konstantin Rusch and Shiwei Liu},  
-  year = {2026},
-  journal={ICLR Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy},
-  abstract={Mixture-of-Experts (MoE) architectures scale computation via sparse expert activations, yet they remain memory-bound because all expert weights must reside in memory. Mixed-precision quantization can substantially reduce this footprint, but existing quantization methods estimate expert importance and assign bits based on calibration data. For frontier MoE LLMs, however, the original training data (and thus its true training distribution) is proprietary and inaccessible. Thus, any calibration set is at best a surrogate and may yield a biased or incomplete view of expert utilization, leading to suboptimal bit allocation. To address these problems, we propose AlphaQ, a novel calibration-free bit-allocation method for MoE quantization. AlphaQ is inspired by Heavy-Tailed Self-Regularization (HT-SR) theory; and it is based on a simple but effective principle: experts with more heavy-tailed weight spectra tend to be better trained, and therefore merit higher bits, and vice versa. We find that different MoE variants can exhibit substantial cross-expert quality variability, calling for a nuanced bit allocation, that is difficult to achieve with limited/biased calibration data. By leveraging HT-SR theory, AlphaQ incorporates expert-wise spectral heavy-tailedness and formulates mixed-precision quantization as a budget-constrained optimization problem that minimizes total quantization error under a global bit-budget constraint. Empirical results on DeepSeekV2-Lite, Qwen1.5-MoE, and Mixtral-8 x 7B show that AlphaQ consistently outperforms calibration-based baselines under matched bit budgets. Notably, on Qwen1.5-MoE, AlphaQ achieves near full-precision accuracy, with an average expert precision of 3.5 bits, while delivering more than 4 x memory compression.}
   }
 @article{chahine2025curiouscaseintrainingcompression,
   abbr= {ICLR},
