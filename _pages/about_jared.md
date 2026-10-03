@@ -1,4 +1,5 @@
 <ul>
+    <li>Öykü Yağmur (research intern, CaCTüS program, 2026)</li>
     <li>Neehal Tumma (visiting PhD student, from MIT, 2026)</li>
     <li>Francesco Ruscio (research intern, from ETH Zurich, 2025-2026; onto PhD at Aithyra)</li>
     <li>Benedict Armstrong (research intern, from ETH Zurich, 2025-2026)</li>
