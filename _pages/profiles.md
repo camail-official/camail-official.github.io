@@ -34,13 +34,13 @@ profiles:
     image_circular: false
   - category: Visiting Students
     align: left
-    image: sumin.jpeg
-    content: about_sumin.md
+    image: Zihan_photo.png
+    content: about_zihan.md
     image_circular: false
   - category: Visiting Students
     align: left
-    image: yagmur.jpg
-    content: about_yagmur.md
+    image: sumin.jpeg
+    content: about_sumin.md
     image_circular: false
   - category: Past Members
     content: about_jared.md

@@ -17,6 +17,9 @@
 </head>
 
 
-### Öykü Yağmur
+### Zihan Liu
 <ul class="flex-indent">
-<li><a href="https://www.projects.tuebingen.mpg.de/">CaCTüS</a> research intern</li>
+<li>Research Intern</li>
+<li>MSc in Computational Statistics and Machine Learning, University College London</li>
+<li>BSc in Mathematics, University of Sheffield</li>
+</ul>
