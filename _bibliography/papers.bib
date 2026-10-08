@@ -1,3 +1,22 @@
+@article{bai2026efficientreasoningflowlanguage,
+  abbr= {arXiv},
+  pdf={https://arxiv.org/pdf/2610.09416},
+  title={Efficient Reasoning with Flow Language Models},
+  author={Hanru Bai and Faissal Izermine and Oscar Davis and T. Konstantin Rusch},
+  year = {2026},
+  journal={ArXiv Preprint.},
+  abstract={Flow Language Models (FLMs) have emerged as a continuous-state alternative to discrete diffusion language models, yet the role of their continuous representations in reasoning remains unclear. We investigate this question by comparing the reasoning efficiency of FLMs and discrete diffusion models, measured by solution accuracy under matched denoising steps. Unlike discrete diffusion, which passes categorical states between denoising steps, FLMs evolve a continuous sequence representation throughout denoising and decodes it into discrete tokens only at the end. Our theoretical analysis shows, from a superposition perspective, how information retained in these continuous states can benefit reasoning. Intermediate-state interventions provide further empirical support for this theoretical account, showing that removing information about alternative candidates reduces subsequent solution recovery. Together, these findings show that FLMs allow evidence for multiple candidates to persist and inform subsequent reasoning before a discrete answer is produced. Furthermore, our experiments on maze planning and Sudoku tasks show that FLMs achieve greater reasoning efficiency in the few-step regime: FLMs achieves higher sequence accuracy than discrete diffusion baselines at matched model sizes and small denoising steps. On maze planning tasks, FLMs can also achieve comparable accuracy with smaller models. For example, on Maze15, FLM reaches the 95% accuracy target at 64 denoising steps with 36.5\% fewer parameters than MDLM. These findings point to continuous state spaces as a promising foundation for reasoning models that require fewer refinement steps.}
+  }
+@article{izermine2026unrolledflowmodelsreasoning,
+  abbr= {arXiv},
+  pdf={https://arxiv.org/pdf/2610.09759},
+  title={Unrolled Flow Models for Reasoning},
+  code={https://github.com/camail-official/Unrolled_Flow_Models_for_Reasoning_UFM},
+  author={Faissal Izermine and Hanru Bai and Oscar Davis and T. Konstantin Rusch},
+  year = {2026},
+  journal={ArXiv Preprint.},
+  abstract={Flow matching enables language generation in few steps, but whether additional integration steps improve reasoning remains unclear. We prove that a flow parameterized by a two-layer Transformer can solve graph reachability, with the required number of integration steps increasing with the target's distance from the root. Yet, standard flow language models can fail to benefit from additional steps on reasoning tasks. We attribute this limitation to objectives that supervise each time point independently, without explicitly training successive steps to build on one another. To address this, we instead train through the model's own latent rollout over a randomly sampled subinterval of [0, 1], decoding only at the endpoint. On ProsQA, this raises accuracy to 97% and enables performance to improve with additional integration steps. For the longer rollouts required by reasoning tasks such as Sudoku and Maze, retracting the latent state onto a sphere stabilizes the dynamics and yields substantial gains over baselines with more than three times as many parameters. Sampling multiple rollouts further improves performance when paired with a parameter-free selection score, although reliable selection remains challenging for longer answers. Together, these results establish a theoretical basis for reasoning with flows and show how rollout training, stable latent dynamics, and rollout selection help realize this capacity in practice.}
+  }
 @article{rusch2026loopedactordepthrecurrentreasoning,
   abbr= {arXiv},
   pdf={https://arxiv.org/abs/2609.37432},
