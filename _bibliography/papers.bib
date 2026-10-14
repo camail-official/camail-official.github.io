@@ -1,3 +1,22 @@
+@article{park2026loopedreasoningfinishesearlier,
+      title={Looped Reasoning Finishes Earlier Than You Think}, 
+      author={Sumin Park and T. Konstantin Rusch},
+  abbr= {arXiv},
+  pdf={https://arxiv.org/pdf/2610.18174},
+  year = {2026},
+  journal={ArXiv Preprint.},
+code={https://github.com/camail-official/Quotient_Recurrent_Reasoner_QRR},
+  abstract={Looped reasoning with dynamic depth can be viewed as relaxation toward solution attractors in a learned dynamical landscape. In practice, however, latent trajectories often oscillate, cycle, or drift rather than cleanly converge to stable fixed points. How these non-stationary dynamics contribute to reasoning and constrain convergence remains unclear. We show that slowly decaying oscillatory modes can impose their convergence rate on coupled latent dynamics, creating a bottleneck. Yet damping these modes indiscriminately can disrupt the reasoning computation they support. This tension motivates an architectural approach: introducing rotational degrees of freedom along which symmetry-generated rotational motion leaves the reasoning-relevant quotient dynamics unchanged by construction. We propose QRR (Quotient Recurrent Reasoner), a gauge-equivariant recurrent architecture with an exact per-token phase-rotation symmetry. Motion along these symmetry directions leaves the quotient representation unchanged and is dynamically decoupled from reasoning-relevant dynamics. Empirically, QRR achieves stable and faster convergence to solution roots in quotient space, without forming a dominant slow oscillatory bottleneck, while matching or surpassing recent recurrent reasoning models on Sudoku, Maze, and Mini-ARC.}
+  }
+@article{gonzálezmartínez2026depthmemory,
+      title={Depth Memory},
+  abbr= {arXiv},
+  pdf={https://arxiv.org/pdf/2610.18809},
+  author={David González-Martínez and Philipp Nazari and T. Konstantin Rusch and Shiwei Liu},
+  year = {2026},
+  journal={ArXiv Preprint.},
+  abstract={Residual connections propagate information through a network by additively accumulating layer outputs. Recently proposed alternatives, such as Manifold-Constrained Hyper-Connections (mHC) and Attention Residuals (AttnRes), instead use more expressive depth aggregation mechanisms that improve language modeling performance at scale. In this work, we consider the mixing of representations over depth as a problem of storing and retrieving information across layers. Formalizing this perspective, we introduce Depth Memory (DM), a unified framework that describes the standard pre-layer-norm (PreLN) transformer, mHC, and AttnRes in terms of streams that carry representations through the network. One such stream, for example, could be an explicit memory stream that is queried to enrich the input to every layer, and whose output is subsequently written back into the memory for use by later layers. For AttnRes, this memory stream is a growing cache of explicit layer representations. For mHC, it is an expanded residual stream. Building on this view, we propose Linear Depth Memory (LDM), which formulates information retrieval across depth as a regression problem solved using recursive least squares. The resulting architecture propagates three streams across depth: the standard residual stream, a linear associative memory stream, and an inverse covariance stream. For high-throughput training and inference, we propose a hardware-aware implementation of LDM that reduces peak activation memory and memory traffic. LDM consistently achieves the lowest perplexities among PreLN, mHC and AttnRes baselines at the 400M and 1.5B parameter scales, alongside competitive zero-shot accuracy.}
+  }
 @article{bai2026efficientreasoningflowlanguage,
   abbr= {arXiv},
   pdf={https://arxiv.org/pdf/2610.09416},
